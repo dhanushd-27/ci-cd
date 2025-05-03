@@ -6,6 +6,9 @@
     "@types/bun": "latest",
     "@types/express": "^5.0.1"
   },
+  "scripts": {
+    "dev": "pm2 restart bun_app"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
