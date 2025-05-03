@@ -7,7 +7,7 @@ const PORT = 8080;
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello, World!');
+  res.send('Hello, World! from CI/CD pipeline');
 });
 
 app.listen(PORT, () => {
