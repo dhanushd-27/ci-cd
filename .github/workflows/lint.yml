@@ -37,6 +37,3 @@ jobs:
           script: |
             cd ci-cd
             git pull origin main
-            sudo ./svc.sh install
-            bun i
-            pm2 restart bun_app
